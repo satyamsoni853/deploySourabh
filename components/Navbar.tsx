@@ -89,7 +89,7 @@ const Navbar = () => {
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
             >
               <NextImage
-                src="/cloudfirelogo.png"
+                src="/ezgif.com-speed.gif"
                 alt="CloudFire IIT"
                 width={800}
                 height={500}
