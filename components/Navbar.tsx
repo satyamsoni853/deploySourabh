@@ -79,7 +79,7 @@ const Navbar = () => {
         variants={navVariants}
         initial="hidden"
         animate="visible"
-        className="fixed top-0 left-0 w-full z-50 transition-all duration-300 py-4 bg-black/70 backdrop-blur-2xl border-b border-white/20 shadow-[inset_0_0_20px_rgba(255,255,255,0.05)]"
+        className="fixed top-0 left-0 w-full z-50 transition-all duration-300 py-4 bg-transparent"
       >
         <div className="max-w-7xl mx-auto px-4 md:px-6 flex items-center justify-between">
           {/* Logo */}
@@ -93,7 +93,7 @@ const Navbar = () => {
                 alt="CloudFire IIT"
                 width={800}
                 height={500}
-                className="h-10 md:h-12 w-auto object-contain"
+                className="h-20 md:h-28 w-auto object-contain"
                 priority
               />
             </motion.div>
