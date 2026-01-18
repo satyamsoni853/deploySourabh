@@ -88,7 +88,7 @@ const Navbar = () => {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
             >
-              //logo final hight and width 
+              
               <NextImage
                 src="/ezgif.com-speed.gif"
                 alt="CloudFire IIT"
